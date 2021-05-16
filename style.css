@@ -1,0 +1,39 @@
+body{
+    margin: 0%;
+}
+#container{
+    height:20vh;
+    width:100vw;
+    background-image: linear-gradient(-90deg, floralwhite, azure);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+button{
+    width: 15%;
+    height: 90%;
+    font-family: monospace;
+    font-size: 1.2rem;
+}
+form select,form select option{
+    width: 20%;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 10px;
+}
+#breed-image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img{
+    max-height: 400px;
+    max-width: 100%;
+}
